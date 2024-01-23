@@ -11,4 +11,8 @@ extension Double {
     func convertToString() -> String {
         String(format: "%.2f", self)
     }
+
+    func convertPercentToString() -> String {
+        String(format: "%.0f", self * 100.0)
+    }
 }
