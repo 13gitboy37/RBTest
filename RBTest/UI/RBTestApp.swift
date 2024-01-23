@@ -11,7 +11,7 @@ import SwiftUI
 struct RBTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
